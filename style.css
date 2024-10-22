@@ -42,17 +42,17 @@ body{
     background-color: #fff;
     width: 100%;
     max-width: 500px;
-    border-radius: 0.625rem;
+    border-radius: 10px;
 }
 .container article:first-child {
     position: relative;
 }
 .container article:first-child img{
-    border-radius: 0.625rem 0.625rem 0 0 ;
+    border-radius: 10px 10px 0 0 ;
 }
 .container article:first-child  div img{
     border-radius: 50%;
-    width: 5rem;
+    width: 80px;
     position: absolute;
     left:50%;
     bottom:-2%;
@@ -72,12 +72,12 @@ body{
 }
 .container article:nth-child(2) p {
     color: hsl(227, 10%, 46%);
-    margin-top: 1rem;
-    padding-bottom: 2rem;
+    margin-top: 16px;
+    padding-bottom: 32px;
 }
 .container article:nth-child(3) {
     border-top: 1px solid  hsl(227, 10%, 46%, 0.2 ) ;
-    padding: 2rem;
+    padding: 32px
 
 }
 .container article:nth-child(3) ul{
@@ -88,7 +88,7 @@ body{
 .container article:nth-child(3) ul li{
     font-weight: 700;
     color:hsl(229, 23%, 23%);
-    font-size: 1.4rem;  
+    font-size: 23px;  
     /* display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +105,7 @@ body{
 }
 .attribution { font-size: 12px;
      text-align: center;
-    margin-top: 1rem;
+    margin-top: 16px;
     color: #fff;
     }
 .attribution a { color: hsl(228, 45%, 44%); }
